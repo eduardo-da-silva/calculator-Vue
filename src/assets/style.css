@@ -1,0 +1,121 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+  display: block;
+  background: none;
+  font: inherit;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  user-select: none;
+  
+}
+
+button:active {
+  box-shadow: inset 0px 0px 80px 0px rgba(0,0,0,0.25);
+}
+
+#app {
+    width: 320px;
+    height: 520px;
+    position: relative;
+}
+
+.calculator {
+    width: 100%;
+    height: 100%;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 20px 0px #aaa;
+}
+
+.display {
+    color: white;
+    background-color: #1d1f1e;
+    line-height: 130px;
+    flex: 1;
+    font-size: 3em;
+}
+
+.text-display {
+    display: inline-block;
+    margin: 0;
+    padding: 10px 10px;
+    position: absolute;
+    right: 0;
+}
+
+.keyboard {
+    height: 400px;
+    display: flex;
+}
+
+.input-keys {
+    width: 240px;
+}
+
+.funcion-keys {
+    display: flex;
+    line-height: 50px;
+    background: linear-gradient(to bottom, rgba(202,202,204,1) 0%, rgba(196,194,204,1) 100%);
+}
+
+.digitos {
+    background: #e0e0e7;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.funcion-keys .key {
+    font-size: 2em;
+}
+
+.key {
+  width: 80px;
+  height: 80px;
+  border-top: 1px solid #777;
+  border-right: 1px solid #666;  
+  text-align: center;
+  line-height: 80px;
+}
+
+.digitos .key {
+        font-size: 2.25em;
+
+}
+
+.digitos .bt-0 {
+    width: 160px;
+    text-align: left;
+    padding-left: 32px;
+}
+
+.operadores {
+    background: linear-gradient(to bottom, rgba(252,156,23,1) 0%, rgba(247,126,27,1) 100%);
+}
+
+.operadores .key {
+    color: white;
+    border-right: 0;
+    font-size: 3em;
+}
+
