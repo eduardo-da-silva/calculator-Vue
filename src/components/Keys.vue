@@ -6,7 +6,7 @@
         <Key keyValue="C" @click="$emit('input', 'C')" />
         <Key keyValue="%" @click="$emit('input', '%')" />
       </div>
-      <div class="digitos">
+      <div class="digits">
         <Key keyValue="7" @click="$emit('input', '7')" />
         <Key keyValue="8" @click="$emit('input', '8')" />
         <Key keyValue="9" @click="$emit('input', '9')" />
@@ -21,7 +21,7 @@
         <Key keyValue="." @click="$emit('input', '.')" />
       </div>
     </div>
-    <div class="operadores">
+    <div class="operators">
       <Key keyValue="/" @click="$emit('input', '/')" />
       <Key keyValue="x" @click="$emit('input', '*')" />
       <Key keyValue="+" @click="$emit('input', '+')" />

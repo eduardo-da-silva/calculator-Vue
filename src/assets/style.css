@@ -78,7 +78,7 @@ button:active {
     background: linear-gradient(to bottom, rgba(202,202,204,1) 0%, rgba(196,194,204,1) 100%);
 }
 
-.digitos {
+.digits {
     background: #e0e0e7;
     display: flex;
     flex-direction: row;
@@ -98,22 +98,16 @@ button:active {
   line-height: 80px;
 }
 
-.digitos .key {
+.digits .key {
         font-size: 2.25em;
 
 }
 
-.digitos .bt-0 {
-    width: 160px;
-    text-align: left;
-    padding-left: 32px;
-}
-
-.operadores {
+.operators {
     background: linear-gradient(to bottom, rgba(252,156,23,1) 0%, rgba(247,126,27,1) 100%);
 }
 
-.operadores .key {
+.operators .key {
     color: white;
     border-right: 0;
     font-size: 3em;
